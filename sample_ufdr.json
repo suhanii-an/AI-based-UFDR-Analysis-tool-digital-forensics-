@@ -1,0 +1,30 @@
+{
+  "contacts": [
+    {"name": "Rahul", "number": "9876543210"},
+    {"name": "Anita", "number": "9123456789"}
+  ],
+
+  "messages": [
+    {
+      "sender": "Rahul",
+      "receiver": "User",
+      "message": "Meet me tonight",
+      "timestamp": "2026-03-01 21:10"
+    },
+    {
+      "sender": "User",
+      "receiver": "Rahul",
+      "message": "Okay see you",
+      "timestamp": "2026-03-01 21:12"
+    }
+  ],
+
+  "calls": [
+    {
+      "caller": "Rahul",
+      "receiver": "User",
+      "duration": 120,
+      "timestamp": "2026-03-01 20:55"
+    }
+  ]
+}
